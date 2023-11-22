@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+background-color: cadetblue;
+}
+.main{
+  text-align: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+    
+}
+.main h1{
+    color: white;
+
+}
+.form{
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    box-shadow: 2px 3px 4px ;
+    width: 60vw;
+    margin: 20px;
+    
+}
+.formdet{
+    margin-block: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.inputField{
+    margin-bottom: 18px;
+   
+}
+.inputField input{
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.paswordfield {
+    margin-bottom: 18px;
+    position: relative;
+   
+    width: 200px;
+    
+}
+.paswordfield #eye {
+    position: absolute;
+    left: 170px;
+    bottom: 10px;
+    margin: auto;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+.paswordfield input{
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+#btn{
+    padding: 5px 10px;
+    background-color: green;
+outline: none;
+border: none;
+font-size: 15px;
+font-weight: 700;
+border-radius: 5px;
+cursor: pointer;
+color: white;
+}
+#btn:hover{
+    background-color: red;
+
+}
